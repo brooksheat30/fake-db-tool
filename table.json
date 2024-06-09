@@ -1,0 +1,15 @@
+{
+    "t1": {
+        "schema": {
+            "yyyymmdd": "date",
+            "user": "UUID",
+            "register": "bool",
+            "active": "bool",
+            "payment": "float"
+        },
+        "order by": [
+            "yyyymmdd",
+            "user"
+        ]
+    }
+}
